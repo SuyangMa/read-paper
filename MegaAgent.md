@@ -26,9 +26,7 @@
 
 5.BossAengt监控整个agent组的输出规范
 
-**（思考：在agent组数量足够大时监控任务是否会发生阻塞？）**
-
-**（解决方法1.为每一个agent层设置监控agent 2.若BossAgent检测到agent层数超过阈值生成新的监控agent ）**
+**（思考1：在agent组数量足够大时监控任务是否会发生阻塞？）**
 
 #### MegaAgent进行的实验
 
