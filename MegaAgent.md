@@ -20,4 +20,18 @@
 
 2.可以将大任务切分为子任务并交由下层子任务解决
 
-33333
+3.由最上层的BossAgent将任务切分并交由下一层的Agent组进行处理
+
+4.每个Agent组都由1个admin和多个agent
+
+5.BossAengt监控整个agent组的输出规范
+
+**（思考：在agent组数量足够大时监控任务是否会发生阻塞？）**
+
+**（解决方法1.为每一个agent层设置监控agent 2.若BossAgent检测到agent层数超过阈值生成新的监控agent ）**
+
+#### MegaAgent进行的实验
+
+1.Gobanggame
+
+2.an industry-wide national policy simulation
